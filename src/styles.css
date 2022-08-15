@@ -1,0 +1,16 @@
+.boton-right {
+    text-align: right;
+}
+
+
+.loadingScreen {
+    opacity: 0.7;
+    transition: opacity .8s ease-in-out;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: #000;
+    z-index: 10000000000;
+  }

@@ -1,0 +1,35 @@
+<div class="sidebar-nav">
+    <nav class="navbar navbar-dark bg-primary fixed-top">
+        <div class="container">
+            <!-- Mobile Menu Toggle Button -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Menus List -->
+            <div class="offcanvas offcanvas-start shadow" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+              <div class="offcanvas-body">
+                    <ul class="navbar-nav">
+                        <li><a routerLink="/categoria"><i class="bi bi-calendar3"></i> <span class="item-text">&nbsp;</span></a></li>
+                        <li><a routerLink="/mantenimiento/Categoria"><i class="bi bi-pencil-square"></i> <span class="item-text">Categoría</span></a></li>
+                        <li><a routerLink="/mantenimiento/Marca"><i class="bi bi-people"></i> <span class="item-text">Marca</span></a></li>
+                        <li><a href="#"><i class="bi bi-book"></i> <span class="item-text">Modelo</span></a></li>
+                        <li><a href="#"><i class="bi bi-person-check"></i> <span class="item-text">Producto</span></a></li>
+                    </ul>
+              </div>
+            </div>
+            <div class="btn-group">
+                <a href="#" class="dropdown-toggle text-white text-decoration-none" data-bs-toggle="dropdown" aria-expanded="false">
+                    <span class="usericon"><i class="bi bi-person-circle"></i></span>
+                    <span class="textnone">Usuario</span>
+                </a>
+                <ul class="dropdown-menu dropdown-menu-end">
+                    <li><button class="dropdown-item" type="button"><i class="bi bi-lock-fill"></i> Change Password</button></li>
+                    <li><button class="dropdown-item" type="button"><i class="bi bi-gear-fill"></i> Admin Setion</button></li>
+                    <li><button class="dropdown-item" type="button"><i class="bi bi-gear-wide-connected"></i> IMAP Settings</button></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><button class="dropdown-item" type="button"><i class="bi bi-box-arrow-right"></i> Sign out</button></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+  </div>
